@@ -1,0 +1,11 @@
+<div class="jumbotron">
+  <h2 class="display-4"><%= t('messages.welcome') %></h2>
+  <p class="lead">Utilize sua matrícula para criar, editar ou deletar uma conta.</p>
+  <hr class="my-4">
+  <p>Se você é administrador fique atento!</p>
+
+    <%= link_to student_index_path class: "btn btn-primary" do %>
+    <span><%= t('messages.read') %></span>
+    <% end %>
+
+</div>
