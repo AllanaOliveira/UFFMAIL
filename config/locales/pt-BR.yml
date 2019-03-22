@@ -1,0 +1,21 @@
+'pt-BR':
+  home: Início
+  student: Aluno
+  teacher: Professor
+  about: Sobre
+  idiom: Idioma
+  access: Acessar
+  uffmail: UFF Mail
+  save: Salvar
+  messages:
+    welcome: Seja bem-vindo(a)!!!
+    new: Novo
+    edit: Editando
+    listing: Listando Alunos
+    confirm_with: Pode confirmar?
+    insira_matricula: 'Insira sua matrícula abaixo: '
+    read: Leia mais
+    click: Clique aqui!
+
+
+

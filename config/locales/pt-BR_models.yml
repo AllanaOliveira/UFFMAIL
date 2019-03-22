@@ -1,0 +1,11 @@
+'pt-BR':
+  activerecord:
+    models:
+      student: Aluno
+    attributes:
+      student:
+        matricula: Matrícula
+        email: E-mail
+        name: Nome
+        password: Senha
+        password_confirmation: Senha de confirmação
