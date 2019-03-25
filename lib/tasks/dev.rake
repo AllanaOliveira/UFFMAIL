@@ -36,7 +36,7 @@ namespace :dev do
       Student.create!(
           matricula: Faker::Number.number(9),
           name: nome,
-          email: Faker::Internet.free_email(nome),
+          email: Faker::Internet.free_email(nome).split("@")[0]+"@uff.br",
           password: DEFAULT_PASSWORD,
           password_confirmation: DEFAULT_PASSWORD
       )

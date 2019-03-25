@@ -1,9 +1,15 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
+  name: MyString
   matricula: MyString
-  nome: MyString
+  email: MyString
+  password: MyString
+  password_confirmation: MyString
 
 two:
+  name: MyString
   matricula: MyString
-  nome: MyString
+  email: MyString
+  password: MyString
+  password_confirmation: MyString

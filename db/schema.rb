@@ -10,14 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_03_22_170736) do
+ActiveRecord::Schema.define(version: 2019_03_25_160835) do
 
   create_table "students", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "name"
-    t.string "email"
     t.string "matricula"
+    t.string "email"
     t.string "password"
     t.string "password_confirmation"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end

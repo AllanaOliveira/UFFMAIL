@@ -1,14 +1,15 @@
 Rails.application.routes.draw do
+  namespace :navegar do
+    get 'index'
+  end
+
   namespace :admin do
     get 'index'
    end
   namespace :about do
     get 'index'
   end
-  namespace :student do
-    get 'index'
-    resources only: [:index, :edit, :new]
-  end
+  resources :students, only: [:edit,:new, :show, :index]
 
   get 'welcome/index'
   root to:  'welcome#index'

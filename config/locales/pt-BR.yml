@@ -12,6 +12,7 @@
     new: Novo
     edit: Editando
     listing: Listando Alunos
+    show: Mostrar
     confirm_with: Pode confirmar?
     insira_matricula: 'Insira sua matrícula abaixo: '
     read: Leia mais
