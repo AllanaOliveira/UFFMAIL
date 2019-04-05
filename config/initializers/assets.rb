@@ -15,4 +15,4 @@ Rails.application.config.assets.precompile += %w( welcome.css welcome.js)
 
 #lib
 
-Rails.application.config.assets.precompile += %w( more.css w3.css w3.js fonts_w3.css)
+Rails.application.config.assets.precompile += %w( more.css w3.css w3.js fonts_w3.css uff2.png)

@@ -1,0 +1,68 @@
+<div class="row">
+  <% if @student.errors.any? %>
+    <div class="alert alert-danger alert-dismissable">
+      <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+      <ul>
+        <%= @student.errors.full_messages.each do |student| %>
+          <li><%= student%></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <div class="col-lg-12">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <div class="card">
+          <div class="card-header">
+            "Novo Aluno"
+          </div>
+          <div class="card-body">
+
+
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-lg-6">
+
+                  <%= form_with model: @student do |form| %>
+
+                    <div class="form-group">
+                      <%= form.label :name , class: "control-label"%>
+                      <%= form.text_field :name, class:"form-control" %>
+                    </div>
+                    <div class="form-group">
+                      <%= form.label :matricula, class: "control-label" %>
+                      <%= text_field_tag(params[:matricula], class:"form-control" )%>
+                    </div>
+
+                    <div class="form-group">
+                      <%= form.label :email, class: "control-label", for:"inputEmail" %>
+                      <%= form.select :email, [choose_email(:name)] %>
+                     </div>
+
+                    <div class="form-group">
+                      <%= form.label :password%>
+                      <%= form.password_field :password, class:"form-control", placeholder:"Senha"%>
+                    </div>
+
+                    <div class="form-group">
+                      <%= form.label :password_confirmation%>
+                      <%= form.password_field :password_confirmation, class:"form-control", placeholder:"Confirmação de senha"%>
+                    </div>
+
+                    <div class="actions">
+                      <%= form.submit class:"btn btn-primary"%>
+                    </div>
+                  <% end %>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<%= link_to 'Back', students_path %>

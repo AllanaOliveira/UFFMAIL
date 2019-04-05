@@ -9,13 +9,17 @@
 <%= stylesheet_link_tag    'welcome' %>
 
 <body>
-
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <%= link_to welcome_index_path, class:"navbar-brand" do%>
-    <span>UFF</span>
-  <%end %>
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+
+      <li class="navbar-brand">
+        <%= image_tag("uff2.png", :alt => "rss feed", width: "100px") %>
+
+          </li>
       <li class="nav-item active">
 
         <%= link_to welcome_index_path, class:"nav-link" do%>
@@ -24,7 +28,7 @@
       </li>
       <li class="nav-item">
         <%= link_to navegar_index_path, class:"nav-link" do%>
-          <span><%= t('uffmail') %></span>
+          <i class="material-icons">email</i>
         <% end %>
       </li>
       <li class="nav-item">
@@ -32,16 +36,23 @@
           <span><%= t('about') %></span>
         <% end %>
       </li>
-      <li class="nav-item">
-        <%= link_to 'Português',root_path(locale: 'pt-BR'), class:"nav-link" %>
-      </li>
-      <li class="nav-item">
-        <%= link_to 'English',root_path(locale: 'en'), class:"nav-link" %>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <%= t('idiom') %>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item"><%=link_to "Português", root_path(locale: 'pt-BR')%></a>
+          <a class="dropdown-item" ><%=link_to "English", root_path(locale: 'en')%></a>
+        </div>
       </li>
     </ul>
+    <form class="form-inline">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+    </form>
   </div>
 </nav>
-
 <!-- Add a background color and large text to the whole page -->
 <div class="w3-sand w3-grayscale w3-large">
 

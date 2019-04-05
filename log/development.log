@@ -15834,3 +15834,1258 @@ SyntaxError (/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-
                 ^):
   
 app/views/students/new.html.erb:72: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/" for 127.0.0.1 at 2019-03-26 13:47:06 -0300
+  [1m[35m (44.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/user/.rvm/gems/ruby-2.4.4/gems/activerecord-5.2.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /home/user/.rvm/gems/ruby-2.4.4/gems/activerecord-5.2.2.1/lib/active_record/log_subscriber.rb:98
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (518.4ms)
+Completed 500 Internal Server Error in 1208ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (The asset "uff.png" is not present in the asset pipeline.):
+    12: 
+    13: <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    14:   <%= link_to welcome_index_path, class:"navbar-brand" do%>
+    15:     <span><%= image_tag("uff.png", :alt => "rss feed") %>
+    16: </span>
+    17:   <%end %>
+    18:   <div class="collapse navbar-collapse" id="navbarNavDropdown">
+  
+app/views/layouts/application.html.erb:15:in `block in _app_views_layouts_application_html_erb___421764170651467207_70148901453540'
+app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb___421764170651467207_70148901453540'
+Started GET "/" for 127.0.0.1 at 2019-03-26 13:48:03 -0300
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/user/.rvm/gems/ruby-2.4.4/gems/activerecord-5.2.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /home/user/.rvm/gems/ruby-2.4.4/gems/activerecord-5.2.2.1/lib/active_record/log_subscriber.rb:98
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (170.5ms)
+Completed 500 Internal Server Error in 458ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (The asset "uff.png" is not present in the asset pipeline.):
+    12: 
+    13: <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    14:   <%= link_to welcome_index_path, class:"navbar-brand" do%>
+    15:     <span><%= image_tag("uff.png", :alt => "rss feed") %>
+    16: </span>
+    17:   <%end %>
+    18:   <div class="collapse navbar-collapse" id="navbarNavDropdown">
+  
+app/views/layouts/application.html.erb:15:in `block in _app_views_layouts_application_html_erb___3842553103492991324_70318312314500'
+app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb___3842553103492991324_70318312314500'
+Started GET "/" for 127.0.0.1 at 2019-03-26 13:50:29 -0300
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/user/.rvm/gems/ruby-2.4.4/gems/activerecord-5.2.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /home/user/.rvm/gems/ruby-2.4.4/gems/activerecord-5.2.2.1/lib/active_record/log_subscriber.rb:98
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (180.5ms)
+Completed 200 OK in 911ms (Views: 903.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-26 13:51:12 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 56ms (Views: 53.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-03-26 13:51:22 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 71ms (Views: 69.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 13:51:26 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 34ms (Views: 33.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 13:51:54 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 38ms (Views: 37.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 13:52:38 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 39ms (Views: 37.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 13:52:38 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 41ms (Views: 39.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 13:52:39 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 39ms (Views: 37.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 13:52:39 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 39ms (Views: 37.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 13:52:39 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 43ms (Views: 41.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 13:53:00 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:14: syntax error, unexpected tLABEL
+ "uff", width: "30px"), class: "navbar-brand" do@output_buff
+                              ^
+/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:14: syntax error, unexpected keyword_do_block, expecting keyword_end
+px"), class: "navbar-brand" do@output_buffer.safe_append='
+                              ^
+/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:81: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+                ^):
+  
+app/views/layouts/application.html.erb:14: syntax error, unexpected tLABEL
+app/views/layouts/application.html.erb:14: syntax error, unexpected keyword_do_block, expecting keyword_end
+app/views/layouts/application.html.erb:81: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 13:53:10 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 41ms (Views: 39.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 13:53:19 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 45ms (Views: 43.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 13:53:20 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 42ms (Views: 40.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 13:54:04 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 70ms (Views: 68.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 13:55:13 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:83: syntax error, unexpected keyword_ensure, expecting keyword_end
+          ensure
+                ^):
+  
+app/views/layouts/application.html.erb:83: syntax error, unexpected keyword_ensure, expecting keyword_end
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 13:55:34 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:83: syntax error, unexpected keyword_ensure, expecting keyword_end
+          ensure
+                ^):
+  
+app/views/layouts/application.html.erb:83: syntax error, unexpected keyword_ensure, expecting keyword_end
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 13:56:12 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:83: syntax error, unexpected keyword_ensure, expecting keyword_end
+          ensure
+                ^):
+  
+app/views/layouts/application.html.erb:83: syntax error, unexpected keyword_ensure, expecting keyword_end
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 13:56:13 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:83: syntax error, unexpected keyword_ensure, expecting keyword_end
+          ensure
+                ^):
+  
+app/views/layouts/application.html.erb:83: syntax error, unexpected keyword_ensure, expecting keyword_end
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 13:56:53 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 42ms (Views: 40.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 13:57:36 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 181ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( uff2.png )` to `config/initializers/assets.rb` and restart your server):
+    15:   <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    16:     <ul class="navbar-nav">
+    17:       <li class="navbar-brand">
+    18:         <%= image_tag("uff2.png", :alt => "rss feed", width: "30px") %>
+    19: 
+    20:           </li>
+    21:       <li class="nav-item active">
+  
+app/views/layouts/application.html.erb:18:in `_app_views_layouts_application_html_erb__3399463677408381059_70176336657480'
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 13:57:41 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 130ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( uff2.png )` to `config/initializers/assets.rb` and restart your server):
+    15:   <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    16:     <ul class="navbar-nav">
+    17:       <li class="navbar-brand">
+    18:         <%= image_tag("uff2.png", :alt => "rss feed", width: "30px") %>
+    19: 
+    20:           </li>
+    21:       <li class="nav-item active">
+  
+app/views/layouts/application.html.erb:18:in `_app_views_layouts_application_html_erb__3399463677408381059_70176326550040'
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 13:57:56 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 67ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( uff2.png )` to `config/initializers/assets.rb` and restart your server):
+    15:   <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    16:     <ul class="navbar-nav">
+    17:       <li class="navbar-brand">
+    18:         <%= image_tag("uff2.png", :alt => "rss feed", width: "30px") %>
+    19: 
+    20:           </li>
+    21:       <li class="nav-item active">
+  
+app/views/layouts/application.html.erb:18:in `_app_views_layouts_application_html_erb__3399463677408381059_70176331552340'
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 13:57:57 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 74ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( uff2.png )` to `config/initializers/assets.rb` and restart your server):
+    15:   <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    16:     <ul class="navbar-nav">
+    17:       <li class="navbar-brand">
+    18:         <%= image_tag("uff2.png", :alt => "rss feed", width: "30px") %>
+    19: 
+    20:           </li>
+    21:       <li class="nav-item active">
+  
+app/views/layouts/application.html.erb:18:in `_app_views_layouts_application_html_erb__3399463677408381059_70176322844260'
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 13:58:04 -0300
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/user/.rvm/gems/ruby-2.4.4/gems/activerecord-5.2.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /home/user/.rvm/gems/ruby-2.4.4/gems/activerecord-5.2.2.1/lib/active_record/log_subscriber.rb:98
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (173.4ms)
+Completed 200 OK in 510ms (Views: 501.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 13:58:14 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 60ms (Views: 58.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 13:58:36 -0300
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/user/.rvm/gems/ruby-2.4.4/gems/activerecord-5.2.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /home/user/.rvm/gems/ruby-2.4.4/gems/activerecord-5.2.2.1/lib/active_record/log_subscriber.rb:98
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (226.9ms)
+Completed 200 OK in 462ms (Views: 452.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 13:59:22 -0300
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/user/.rvm/gems/ruby-2.4.4/gems/activerecord-5.2.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /home/user/.rvm/gems/ruby-2.4.4/gems/activerecord-5.2.2.1/lib/active_record/log_subscriber.rb:98
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (227.0ms)
+Completed 200 OK in 463ms (Views: 454.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 13:59:56 -0300
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/user/.rvm/gems/ruby-2.4.4/gems/activerecord-5.2.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /home/user/.rvm/gems/ruby-2.4.4/gems/activerecord-5.2.2.1/lib/active_record/log_subscriber.rb:98
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (174.4ms)
+Completed 200 OK in 495ms (Views: 485.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 14:01:44 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 42ms (Views: 40.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 14:01:53 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 88ms (Views: 85.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 14:02:08 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 63ms (Views: 60.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 14:02:09 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 62ms (Views: 60.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 14:02:09 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 35ms (Views: 33.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 14:02:09 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 40ms (Views: 38.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 14:02:09 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 35ms (Views: 33.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 14:02:19 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 35ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 14:12:07 -0300
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/user/.rvm/gems/ruby-2.4.4/gems/activerecord-5.2.2.1/lib/active_record/log_subscriber.rb:98
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:38: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+form.select :idiom, [link_to 'Português',root_path(locale: 
+                              ^
+/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:38: syntax error, unexpected ',', expecting ')'
+:idiom, [link_to 'Português',root_path(locale: 'pt-BR'), cl
+                              ^
+/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:38: syntax error, unexpected ',', expecting ')'
+s',root_path(locale: 'pt-BR'), class:"nav-link",
+                              ^
+/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:38: syntax error, unexpected ',', expecting ')'
+e: 'pt-BR'), class:"nav-link",
+                              ^
+/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:39: syntax error, unexpected ']', expecting ')'
+cale: 'en'), class:"nav-link"] );@output_buffer.safe_append=
+                              ^
+/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:81: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:83: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/layouts/application.html.erb:38: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/layouts/application.html.erb:38: syntax error, unexpected ',', expecting ')'
+app/views/layouts/application.html.erb:38: syntax error, unexpected ',', expecting ')'
+app/views/layouts/application.html.erb:38: syntax error, unexpected ',', expecting ')'
+app/views/layouts/application.html.erb:39: syntax error, unexpected ']', expecting ')'
+app/views/layouts/application.html.erb:81: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/layouts/application.html.erb:83: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 14:12:28 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:38: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+form.select :idiom, [link_to 'Português',root_path(locale: 
+                              ^
+/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:38: syntax error, unexpected ',', expecting ')'
+:idiom, [link_to 'Português',root_path(locale: 'pt-BR'),
+                              ^
+/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:38: syntax error, unexpected ',', expecting ')'
+s',root_path(locale: 'pt-BR'),
+                              ^
+/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:39: syntax error, unexpected ']', expecting ')'
+lish',root_path(locale: 'en')] );@output_buffer.safe_append=
+                              ^
+/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:81: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:83: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/layouts/application.html.erb:38: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/layouts/application.html.erb:38: syntax error, unexpected ',', expecting ')'
+app/views/layouts/application.html.erb:38: syntax error, unexpected ',', expecting ')'
+app/views/layouts/application.html.erb:39: syntax error, unexpected ']', expecting ')'
+app/views/layouts/application.html.erb:81: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/layouts/application.html.erb:83: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 14:13:13 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:38: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+orm.select :idiom, [[link_to 'Português',root_path(locale: 
+                              ^
+/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:38: syntax error, unexpected ',', expecting ')'
+idiom, [[link_to 'Português',root_path(locale: 'pt-BR')],
+                              ^
+/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:38: syntax error, unexpected ']', expecting ')'
+s',root_path(locale: 'pt-BR')],
+                              ^
+/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:39: syntax error, unexpected ',', expecting ')'
+           [link_to 'English',root_path(locale: 'en')]] );@o
+                              ^
+/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:39: syntax error, unexpected ']', expecting ')'
+lish',root_path(locale: 'en')]] );@output_buffer.safe_append
+                              ^
+/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:81: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:83: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/layouts/application.html.erb:38: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/layouts/application.html.erb:38: syntax error, unexpected ',', expecting ')'
+app/views/layouts/application.html.erb:38: syntax error, unexpected ']', expecting ')'
+app/views/layouts/application.html.erb:39: syntax error, unexpected ',', expecting ')'
+app/views/layouts/application.html.erb:39: syntax error, unexpected ']', expecting ')'
+app/views/layouts/application.html.erb:81: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/layouts/application.html.erb:83: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 14:17:54 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 35ms (Views: 33.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 14:18:13 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 37ms (Views: 35.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 14:21:28 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 399ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `form' for #<#<Class:0x00007fbc000eafb0>:0x00007fbc02d74900>
+Did you mean?  fork):
+    35:         <% end %>
+    36:       </li>
+    37:       <li >
+    38:       <%= form.select :idiom , [250,320] %>
+    39:       </li>
+    40:     </ul>
+    41:   </div>
+  
+app/views/layouts/application.html.erb:38:in `_app_views_layouts_application_html_erb___1319779882707521247_70222739096420'
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 14:23:20 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:42: syntax error, unexpected tSTRING_DEND, expecting ')'
+     params[:id][:matricula])} );@output_buffer.safe_append=
+                              ^
+/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:87: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:89: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/layouts/application.html.erb:42: syntax error, unexpected tSTRING_DEND, expecting ')'
+app/views/layouts/application.html.erb:87: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/layouts/application.html.erb:89: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 14:23:58 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 38ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    39:           <label for="operation_pending">Pending</label><br/>
+    40:           <%= select_tag 'operation[pending]',
+    41:                          options_for_select([['Yes', 'true'], ['No', 'false']],
+    42:                                             params[:id][:matricula]) %>
+    43:         </p>
+    44: 
+    45: 
+  
+app/views/layouts/application.html.erb:42:in `_app_views_layouts_application_html_erb___1319779882707521247_70222683377400'
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 14:24:09 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 38ms (Views: 37.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 14:24:57 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 37ms (Views: 35.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 14:26:51 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:41: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+options_for_select([[link_to "Português", root_path("pt-BR"
+                              ^
+/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:41: syntax error, unexpected ',', expecting ')'
+select([[link_to "Português", root_path("pt-BR")], [link_to
+                              ^
+/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:41: syntax error, unexpected ']', expecting ')'
+rtuguês", root_path("pt-BR")], [link_to "Inglês", root_pat
+                              ^
+/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:41: syntax error, unexpected ',', expecting ')'
+"pt-BR")], [link_to "Inglês", root_path(:en)]]) );@output_b
+                              ^
+/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:41: syntax error, unexpected ']', expecting ')'
+_to "Inglês", root_path(:en)]]) );@output_buffer.safe_appen
+                              ^
+/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:86: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:88: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/layouts/application.html.erb:41: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/layouts/application.html.erb:41: syntax error, unexpected ',', expecting ')'
+app/views/layouts/application.html.erb:41: syntax error, unexpected ']', expecting ')'
+app/views/layouts/application.html.erb:41: syntax error, unexpected ',', expecting ')'
+app/views/layouts/application.html.erb:41: syntax error, unexpected ']', expecting ')'
+app/views/layouts/application.html.erb:86: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/layouts/application.html.erb:88: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 14:28:17 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:41: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+options_for_select([[link_to "Português", root_path(locale:
+                              ^
+/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:41: syntax error, unexpected ',', expecting ')'
+select([[link_to "Português", root_path(locale:"pt-BR")], [
+                              ^
+/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:41: syntax error, unexpected ']', expecting ')'
+s", root_path(locale:"pt-BR")], [link_to "Inglês", root_pat
+                              ^
+/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:41: syntax error, unexpected ',', expecting ')'
+"pt-BR")], [link_to "Inglês", root_path(locale: :en)]]) );@
+                              ^
+/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:41: syntax error, unexpected ']', expecting ')'
+lês", root_path(locale: :en)]]) );@output_buffer.safe_appen
+                              ^
+/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:86: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:88: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/layouts/application.html.erb:41: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/layouts/application.html.erb:41: syntax error, unexpected ',', expecting ')'
+app/views/layouts/application.html.erb:41: syntax error, unexpected ']', expecting ')'
+app/views/layouts/application.html.erb:41: syntax error, unexpected ',', expecting ')'
+app/views/layouts/application.html.erb:41: syntax error, unexpected ']', expecting ')'
+app/views/layouts/application.html.erb:86: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/layouts/application.html.erb:88: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 14:29:12 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:41: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+options_for_select([[link_to 'Português',root_path(locale: 
+                              ^
+/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:41: syntax error, unexpected ',', expecting ')'
+select([[link_to 'Português',root_path(locale: 'pt-BR')], [
+                              ^
+/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:41: syntax error, unexpected ']', expecting ')'
+s',root_path(locale: 'pt-BR')], [link_to 'English',root_path
+                              ^
+/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:41: syntax error, unexpected ',', expecting ')'
+'pt-BR')], [link_to 'English',root_path(locale: 'en')]]) );@
+                              ^
+/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:41: syntax error, unexpected ']', expecting ')'
+lish',root_path(locale: 'en')]]) );@output_buffer.safe_appen
+                              ^
+/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:86: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:88: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/layouts/application.html.erb:41: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/layouts/application.html.erb:41: syntax error, unexpected ',', expecting ')'
+app/views/layouts/application.html.erb:41: syntax error, unexpected ']', expecting ')'
+app/views/layouts/application.html.erb:41: syntax error, unexpected ',', expecting ')'
+app/views/layouts/application.html.erb:41: syntax error, unexpected ']', expecting ')'
+app/views/layouts/application.html.erb:86: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/layouts/application.html.erb:88: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 14:30:16 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 40ms (Views: 38.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 14:30:23 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 35ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 14:31:07 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 37ms (Views: 35.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 14:31:42 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 42ms (Views: 39.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 14:32:02 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 39ms (Views: 37.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 14:32:45 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 49ms (Views: 47.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 14:36:08 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 40ms (Views: 38.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 14:39:08 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 38ms (Views: 36.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 14:40:13 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:40: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+options_for_select([[link_to 'Português',root_path(locale: 
+                              ^
+/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:40: syntax error, unexpected ',', expecting ')'
+select([[link_to 'Português',root_path(locale: 'pt-BR')], [
+                              ^
+/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:40: syntax error, unexpected ']', expecting ')'
+s',root_path(locale: 'pt-BR')], [link_to 'English',root_path
+                              ^
+/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:40: syntax error, unexpected ',', expecting ')'
+'pt-BR')], [link_to 'English',root_path(locale: 'en')]]), cl
+                              ^
+/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/layouts/application.html.erb:40: syntax error, unexpected ']', expecting ')'
+lish',root_path(locale: 'en')]]), class:"selectpicker" );@ou
+                              ^):
+  
+app/views/layouts/application.html.erb:40: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/layouts/application.html.erb:40: syntax error, unexpected ',', expecting ')'
+app/views/layouts/application.html.erb:40: syntax error, unexpected ']', expecting ')'
+app/views/layouts/application.html.erb:40: syntax error, unexpected ',', expecting ')'
+app/views/layouts/application.html.erb:40: syntax error, unexpected ']', expecting ')'
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 14:42:32 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 45ms (Views: 44.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 14:43:11 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 36ms (Views: 34.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 14:45:28 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 36ms (Views: 35.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 14:45:51 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 38ms (Views: 36.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 14:47:52 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 45ms (Views: 43.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 14:48:55 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 35ms (Views: 34.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 14:48:55 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 36ms (Views: 34.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 14:50:01 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 37ms (Views: 35.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 14:50:02 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 39ms (Views: 37.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 14:50:02 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 39ms (Views: 37.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 14:50:34 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 39ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 14:52:23 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 35ms (Views: 33.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2019-03-26 14:52:42 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 37ms (Views: 35.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2019-03-26 14:52:44 -0300
+Processing by AboutController#index as HTML
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 44ms (Views: 35.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2019-03-26 14:54:47 -0300
+Processing by AboutController#index as HTML
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 37ms (Views: 35.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2019-03-26 14:55:54 -0300
+Processing by AboutController#index as HTML
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 45ms (Views: 43.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2019-03-26 14:55:56 -0300
+Processing by AboutController#index as HTML
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 37ms (Views: 35.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2019-03-26 14:57:09 -0300
+Processing by AboutController#index as HTML
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 37ms (Views: 35.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2019-03-26 14:58:21 -0300
+Processing by AboutController#index as HTML
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 36ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2019-03-26 14:58:42 -0300
+Processing by AboutController#index as HTML
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 38ms (Views: 36.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2019-03-26 14:58:43 -0300
+Processing by AboutController#index as HTML
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 36ms (Views: 34.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2019-03-26 14:59:15 -0300
+Processing by AboutController#index as HTML
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 39ms (Views: 37.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2019-03-26 14:59:47 -0300
+Processing by AboutController#index as HTML
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 36ms (Views: 34.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2019-03-26 15:02:34 -0300
+Processing by AboutController#index as HTML
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 39ms (Views: 38.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2019-03-26 15:03:24 -0300
+Processing by AboutController#index as HTML
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 119ms (Views: 117.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2019-03-26 15:03:24 -0300
+Processing by AboutController#index as HTML
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 46ms (Views: 44.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2019-03-26 15:03:25 -0300
+Processing by AboutController#index as HTML
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 37ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2019-03-26 15:03:35 -0300
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/user/.rvm/gems/ruby-2.4.4/gems/activerecord-5.2.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /home/user/.rvm/gems/ruby-2.4.4/gems/activerecord-5.2.2.1/lib/active_record/log_subscriber.rb:98
+Processing by AboutController#index as HTML
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (174.9ms)
+Completed 200 OK in 530ms (Views: 520.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about/index" for 127.0.0.1 at 2019-03-26 15:03:59 -0300
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/user/.rvm/gems/ruby-2.4.4/gems/activerecord-5.2.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /home/user/.rvm/gems/ruby-2.4.4/gems/activerecord-5.2.2.1/lib/active_record/log_subscriber.rb:98
+Processing by AboutController#index as HTML
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (176.4ms)
+Completed 500 Internal Server Error in 383ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'bootstrap/dist/css/bootstrap.bundle' with type 'text/css'
+Checked in these paths: 
+  /home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/assets/config
+  /home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/assets/images
+  /home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/assets/javascripts
+  /home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/assets/stylesheets
+  /home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/lib/assets/images
+  /home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/lib/assets/javascripts
+  /home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/lib/assets/stylesheets
+  /home/user/.rvm/gems/ruby-2.4.4/gems/material_icons-2.2.1/app/assets/fonts
+  /home/user/.rvm/gems/ruby-2.4.4/gems/material_icons-2.2.1/app/assets/stylesheets
+  /home/user/.rvm/gems/ruby-2.4.4/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /home/user/.rvm/gems/ruby-2.4.4/gems/actioncable-5.2.2.1/lib/assets/compiled
+  /home/user/.rvm/gems/ruby-2.4.4/gems/activestorage-5.2.2.1/app/assets/javascripts
+  /home/user/.rvm/gems/ruby-2.4.4/gems/actionview-5.2.2.1/lib/assets/compiled
+  /home/user/.rvm/gems/ruby-2.4.4/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/node_modules):
+     5: <meta name="viewport" content="width=device-width, initial-scale=1">
+     6: <%= csrf_meta_tags %>
+     7: <%= csp_meta_tag %>
+     8: <%= stylesheet_link_tag    'application' %>
+     9: <%= stylesheet_link_tag    'welcome' %>
+    10: 
+    11: <body>
+  
+app/assets/stylesheets/application.css:18
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__4102702263877620437_70242949083280'
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mStudent Load (11.4ms)[0m  [1m[34mSELECT  `students`.* FROM `students` LIMIT 11[0m
+  [1m[36mStudent Load (0.4ms)[0m  [1m[34mSELECT  `students`.* FROM `students` ORDER BY `students`.`id` ASC LIMIT 1[0m
+Started GET "/rails/info/routes" for 127.0.0.1 at 2019-03-26 15:22:18 -0300
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/user/.rvm/gems/ruby-2.4.4/gems/activerecord-5.2.2.1/lib/active_record/log_subscriber.rb:98
+Processing by Rails::InfoController#routes as HTML
+  Rendering /home/user/.rvm/gems/ruby-2.4.4/gems/railties-5.2.2.1/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /home/user/.rvm/gems/ruby-2.4.4/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [14 times] (109.6ms)
+  Rendered /home/user/.rvm/gems/ruby-2.4.4/gems/actionpack-5.2.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (18.9ms)
+  Rendered /home/user/.rvm/gems/ruby-2.4.4/gems/railties-5.2.2.1/lib/rails/templates/rails/info/routes.html.erb within layouts/application (260.6ms)
+Completed 200 OK in 308ms (Views: 269.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/new" for 127.0.0.1 at 2019-03-26 15:22:27 -0300
+Processing by StudentsController#new as HTML
+  Rendering students/new.html.erb within layouts/application
+  Rendered students/new.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 1.3ms)
+
+
+  
+SyntaxError (/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/students/new.html.erb:72: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+                ^):
+  
+app/views/students/new.html.erb:72: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/students/new" for 127.0.0.1 at 2019-03-26 15:23:12 -0300
+Processing by StudentsController#new as HTML
+  Rendering students/new.html.erb within layouts/application
+  Rendered students/new.html.erb within layouts/application (3.3ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"get_matricula", :class=>"nifty_form", :controller=>"students", :method=>"get"}):
+    23:               <div class="row">
+    24:                 <div class="col-lg-6">
+    25: 
+    26:                   <%= form_tag(controller: "students", action: "get_matricula", method: "get", class: "nifty_form") do%>
+    27: 
+    28: 
+    29:                     <div class="form-group">
+  
+app/views/students/new.html.erb:26:in `_app_views_students_new_html_erb___440246761898420780_70242973749700'
+Started GET "/students/new" for 127.0.0.1 at 2019-03-26 15:23:29 -0300
+Processing by StudentsController#new as HTML
+  Rendering students/new.html.erb within layouts/application
+  Rendered students/new.html.erb within layouts/application (363.6ms)
+Completed 500 Internal Server Error in 367ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `form' for #<#<Class:0x00007fc56eb578f0>:0x00007fc5707839c0>
+Did you mean?  fork):
+    27: 
+    28: 
+    29:                     <div class="form-group">
+    30:                       <%= form.label :name , class: "control-label"%>
+    31:                       <%= form.text_field :name, class:"form-control" %>
+    32:                     </div>
+    33:                     <div class="form-group">
+  
+app/views/students/new.html.erb:30:in `block in _app_views_students_new_html_erb___440246761898420780_70242969298100'
+app/views/students/new.html.erb:26:in `_app_views_students_new_html_erb___440246761898420780_70242969298100'
+Started GET "/students/new" for 127.0.0.1 at 2019-03-26 15:31:29 -0300
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/user/.rvm/gems/ruby-2.4.4/gems/activerecord-5.2.2.1/lib/active_record/log_subscriber.rb:98
+Processing by StudentsController#new as HTML
+  Rendering students/new.html.erb within layouts/application
+  Rendered students/new.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/students/new.html.erb:56: syntax error, unexpected tIVAR, expecting ')'
+@output_buffer.safe_append='
+              ^):
+  
+app/views/students/new.html.erb:56: syntax error, unexpected tIVAR, expecting ')'
+Started GET "/students/new" for 127.0.0.1 at 2019-03-26 15:32:45 -0300
+Processing by StudentsController#new as HTML
+  Rendering students/new.html.erb within layouts/application
+  Rendered students/new.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/students/new.html.erb:34: syntax error, unexpected ')', expecting keyword_end
+icula, class:"form-control" ));@output_buffer.safe_append='
+                              ^
+/home/user/Documentos/Projetos/curso-rails/workspace/modulo_06/uff-mail/app/views/students/new.html.erb:71: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+                ^):
+  
+app/views/students/new.html.erb:34: syntax error, unexpected ')', expecting keyword_end
+app/views/students/new.html.erb:71: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/students/new" for 127.0.0.1 at 2019-03-26 15:34:18 -0300
+Processing by StudentsController#new as HTML
+  Rendering students/new.html.erb within layouts/application
+  Rendered students/new.html.erb within layouts/application (39.7ms)
+Completed 500 Internal Server Error in 45ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    36: 
+    37:                     <div class="form-group">
+    38:                       <%= form.label :email, class: "control-label", for:"inputEmail" %>
+    39:                       <%= form.select :email, [choose_email(params[:name])] %>
+    40:                      </div>
+    41: 
+    42:                     <div class="form-group">
+  
+app/helpers/students_helper.rb:12:in `choose_email'
+app/views/students/new.html.erb:39:in `block in _app_views_students_new_html_erb___440246761898420780_70242966126940'
+app/views/students/new.html.erb:26:in `_app_views_students_new_html_erb___440246761898420780_70242966126940'
+Started GET "/students/new" for 127.0.0.1 at 2019-03-26 15:35:40 -0300
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/user/.rvm/gems/ruby-2.4.4/gems/activerecord-5.2.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /home/user/.rvm/gems/ruby-2.4.4/gems/activerecord-5.2.2.1/lib/active_record/log_subscriber.rb:98
+Processing by StudentsController#new as HTML
+  Rendering students/new.html.erb within layouts/application
+Started GET "/students/new" for 127.0.0.1 at 2019-03-26 15:39:06 -0300
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/user/.rvm/gems/ruby-2.4.4/gems/activerecord-5.2.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /home/user/.rvm/gems/ruby-2.4.4/gems/activerecord-5.2.2.1/lib/active_record/log_subscriber.rb:98
+Processing by StudentsController#new as HTML
+  Rendering students/new.html.erb within layouts/application
+  Rendered students/new.html.erb within layouts/application (212.3ms)
+Completed 500 Internal Server Error in 237ms (ActiveRecord: 1.4ms)
+
+
+  
+ActionView::Template::Error (undefined method `name' for :name:Symbol):
+    36: 
+    37:                     <div class="form-group">
+    38:                       <%= form.label :email, class: "control-label", for:"inputEmail" %>
+    39:                       <%= form.select :email, [choose_email(:name)] %>
+    40:                      </div>
+    41: 
+    42:                     <div class="form-group">
+  
+app/helpers/students_helper.rb:13:in `choose_email'
+app/views/students/new.html.erb:39:in `block in _app_views_students_new_html_erb___1924538344611937584_70056016984720'
+app/views/students/new.html.erb:26:in `_app_views_students_new_html_erb___1924538344611937584_70056016984720'
+Started GET "/students/new" for 127.0.0.1 at 2019-03-26 15:39:08 -0300
+Processing by StudentsController#new as HTML
+  Rendering students/new.html.erb within layouts/application
+  Rendered students/new.html.erb within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `name' for :name:Symbol):
+    36: 
+    37:                     <div class="form-group">
+    38:                       <%= form.label :email, class: "control-label", for:"inputEmail" %>
+    39:                       <%= form.select :email, [choose_email(:name)] %>
+    40:                      </div>
+    41: 
+    42:                     <div class="form-group">
+  
+app/helpers/students_helper.rb:13:in `choose_email'
+app/views/students/new.html.erb:39:in `block in _app_views_students_new_html_erb___1924538344611937584_70055949809000'
+app/views/students/new.html.erb:26:in `_app_views_students_new_html_erb___1924538344611937584_70055949809000'
+Started GET "/students/new" for 127.0.0.1 at 2019-03-26 15:39:09 -0300
+Processing by StudentsController#new as HTML
+  Rendering students/new.html.erb within layouts/application
+  Rendered students/new.html.erb within layouts/application (4.7ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `name' for :name:Symbol):
+    36: 
+    37:                     <div class="form-group">
+    38:                       <%= form.label :email, class: "control-label", for:"inputEmail" %>
+    39:                       <%= form.select :email, [choose_email(:name)] %>
+    40:                      </div>
+    41: 
+    42:                     <div class="form-group">
+  
+app/helpers/students_helper.rb:13:in `choose_email'
+app/views/students/new.html.erb:39:in `block in _app_views_students_new_html_erb___1924538344611937584_70055983350320'
+app/views/students/new.html.erb:26:in `_app_views_students_new_html_erb___1924538344611937584_70055983350320'
+Started GET "/students/new" for 127.0.0.1 at 2019-03-26 15:39:25 -0300
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/user/.rvm/gems/ruby-2.4.4/gems/activerecord-5.2.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /home/user/.rvm/gems/ruby-2.4.4/gems/activerecord-5.2.2.1/lib/active_record/log_subscriber.rb:98
+Processing by StudentsController#new as HTML
+  Rendering students/new.html.erb within layouts/application
+Started GET "/students/new" for 127.0.0.1 at 2019-03-26 15:41:21 -0300
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/user/.rvm/gems/ruby-2.4.4/gems/activerecord-5.2.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /home/user/.rvm/gems/ruby-2.4.4/gems/activerecord-5.2.2.1/lib/active_record/log_subscriber.rb:98
+Processing by StudentsController#new as HTML
+  Rendering students/new.html.erb within layouts/application
+  Rendered students/new.html.erb within layouts/application (278.6ms)
+Completed 200 OK in 576ms (Views: 551.2ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/students/new" for 127.0.0.1 at 2019-03-26 15:41:27 -0300
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/user/.rvm/gems/ruby-2.4.4/gems/activerecord-5.2.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /home/user/.rvm/gems/ruby-2.4.4/gems/activerecord-5.2.2.1/lib/active_record/log_subscriber.rb:98
+Processing by StudentsController#new as HTML
+  Rendering students/new.html.erb within layouts/application
+  [1m[36mStudent Load (0.4ms)[0m  [1m[34mSELECT  `students`.* FROM `students` ORDER BY `students`.`id` ASC LIMIT 1[0m

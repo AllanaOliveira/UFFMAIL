@@ -1,0 +1,2 @@
+class NavegarController < ApplicationController
+end
